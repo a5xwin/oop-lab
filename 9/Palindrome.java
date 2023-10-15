@@ -1,13 +1,12 @@
 import java.util.*;
 
 public class Palindrome{
-
 	public static void main(String args[]){
 	
 		Scanner sc = new Scanner(System.in);
 	
 		System.out.print("Enter any string: ");
-		String x =sc.nextLine();
+		String x =sc.nextLine().toLowerCase();
 
 		int len=x.length();
 
@@ -30,7 +29,6 @@ public class Palindrome{
 			System.out.println("Entered string is not palindrome!");
 		}
 		
-
 		else{
 			System.out.println("Entered string is palindrome!");
 		}
